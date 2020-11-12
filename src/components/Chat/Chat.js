@@ -82,7 +82,7 @@ function Chat() {
                 <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`}/>
                 <div className="chat_headerInfo">
                     <h3>{roomName}</h3>
-                    <p>Last seen at {lastday !== null ? day.toString().toLowerCase() === lastday.toString().toLowerCase() ? formatAMPM(lasttime) : (lastday,formatAMPM(lastday)) : null}</p>
+                    <p>Last seen at {lastday !== null ? day.toString().toLowerCase() === lastday.toString().toLowerCase() ? formatAMPM(lasttime) : (lastday,formatAMPM(lasttime)) : null}</p>
                 </div>
                 <div className="chat_headerRight">
                 <IconButton>
